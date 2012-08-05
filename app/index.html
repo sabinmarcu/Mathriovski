@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="en-US" manifest='appcache.manifest'>
+<head>
+	<meta charset="UTF-8">
+	<title>Mathrisovski / Canvas 2D</title>
+	<script src="js/is.js" type="text/javascript"></script>
+	<script src="js/uicontroller.js" type="text/javascript"></script>
+	<script src="js/rendercontroller.js" type="text/javascript"></script>
+	<script src="js/datacontroller.js" type="text/javascript"></script>
+	<link media="all" rel="stylesheet" href="styles/styles.css" type="text/css" />
+	<meta name="viewport" content="width=device.width, initial-scale=1, maximum-scale:1, minimum-scale=1, user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes" />  
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />  
+</head>
+<body onload='M3.Application.run()'>
+	<h1 id='title' height='75'>Mathrisovski - Canvas 2D Version</h1>	
+	<nav>
+		<li id='newgame'>New Game</li>
+		<li> Score : <span id='score'>NULL</span></li>
+		<li id='pause'>Pause</li>
+		<li id='end'>SURRENDER!!!</li>
+	</nav>
+	<canvas id='canvas'></canvas>
+	<section>
+		<article id="left"></article>
+		<article id="faster"></article>
+		<article id="right"></article>
+	</section>
+</body>
+</html>
